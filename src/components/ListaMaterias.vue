@@ -46,6 +46,16 @@ export default {
           materia: 'Titulo',
           profesor: 'Cristiano Ronaldo'
         },
+        {
+          id:79450,
+          materia: 'Titulo',
+          profesor: 'Cristiano Ronaldo'
+        },
+        {
+          id:79450,
+          materia: 'Titulo',
+          profesor: 'Cristiano Ronaldo'
+        },
       ]
     };
   },
