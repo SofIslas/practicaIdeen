@@ -15,6 +15,7 @@ import { defineComponent } from 'vue';
 // Components
 import InicioDesktop from "@/components/InicioDesktop.vue";
 import InicioMobile from "@/components/InicioMobile.vue";
+import {mapState} from "vuex";
 
 export default defineComponent({
   name: 'HomeView',
@@ -22,6 +23,12 @@ export default defineComponent({
   components: {
     InicioDesktop,
     InicioMobile
+  },
+  computed: {
+    ...mapState(['usuario']),
+    dato () {
+      return this.usuario
+    }
   },
 });
 </script>
